@@ -6,7 +6,7 @@ After completing `a6_part1.py` answer the following questions
 
 1. What is the r squared value?  What does this say about this lenear regression model?
 
-The r^2 value is the coefficient of determination; the model got 0.0.6257932855322312. It is calculated based on a line of best fit, measuring the distance between each point to that line. It will show how well the model the data points got predicted by the model based on the linear relationship.
+The r^2 value is the coefficient of determination; the model got 0.6257932855322312. It is calculated based on a line of best fit, measuring the distance between each point to that line. It will show how well the model the data points got predicted by the model based on the linear relationship.
 
 2. According to your model, what is the predicted systolic blood pressure for a person iwho is 43 years old?
 

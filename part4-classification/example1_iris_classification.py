@@ -15,7 +15,7 @@ x = data[["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]].val
 y = data["Species"].values
 
 #Standardizes the x values
-scaler = StandardScaler().fit(x)
+scaler = StandardScaler().fit(x) # need to scale
 x = scaler.transform(x)
 
 #Splits the data into a training and testing set
@@ -51,3 +51,10 @@ for index in range(len(x_test)):
         actual = "Iris-versicolor"
     print("Predicted Species: " + y_pred + " Actual Species: " + actual)
     print("")
+
+# predictions with scaling
+
+my_flower = [[7, 3, 5, 2]]
+my_flower_scaled = scaler.transform(my_flower)
+my_prediction = model.predict(my_flower_scaled)
+print(my_prediction)
