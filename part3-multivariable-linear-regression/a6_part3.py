@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 #imports and formats the data
-data = pd.read_csv("part3-multivariable-linear-regression/car_data.csv")
+data = pd.read_csv("car_data.csv")
 x = data[["miles","age"]].values
 y = data["Price"].values
 
