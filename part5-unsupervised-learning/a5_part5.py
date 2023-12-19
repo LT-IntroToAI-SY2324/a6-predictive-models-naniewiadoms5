@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 #imports the data
-data = pd.read_csv("part5-unsupervised-learning/customer_data.csv")
+data = pd.read_csv("C:/Users/naniewiadoms@cps.edu/Documents/IntrotoAI/part5-unsupervised-learning/customer_data.csv")
 x = data[["Annual Income", "Spending Score"]]
 
 #standardize the data
